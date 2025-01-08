@@ -218,7 +218,7 @@ const Calculator = () => {
                                 e.key === 'Enter' && handleSubmit();
                             }}
                         >
-                            <img src='/icon-calculator.svg' className='inline mr-[0.5rem] scale-[0.85] align-middle' />
+                            <img src='./icon-calculator.svg' className='inline mr-[0.5rem] scale-[0.85] align-middle' />
                             Calculate Repayments
                         </div>
                     </form>
@@ -227,7 +227,11 @@ const Calculator = () => {
                 <div className='results flex flex-col justify-center items-center p-[2rem] bg-[#133040] text-white rounded-bl-[5rem]'>
                     {!results ? (
                         <div className='default-result flex flex-col gap-2 justify-center items-center'>
-                            <img src='/illustration-empty.svg' alt='empty illustration' className='mx-auto w-1/2' />
+                            <img
+                                src='https://raozhaizhu.github.io/mortgage/illustration-empty.svg'
+                                alt='empty illustration'
+                                className='mx-auto w-1/2'
+                            />
                             <h2 className='text-[1.2rem] font-bold'>Results shown here</h2>
                             <p className='text-center text-[0.85rem] opacity-[0.7]'>
                                 Complete the form and click “calculate repayments” to see what your monthly repayments
